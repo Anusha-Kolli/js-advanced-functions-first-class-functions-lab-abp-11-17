@@ -11,6 +11,6 @@ const returnLastTwoDrivers =function returnLastTwoDrivers(drivers){
 
 const selectingDrivers =
 [
- returnFirstTwoDrivers(drivers){ let newDrivers = drivers.slice(0,2); return newDrivers; } ,
- returnLastTwoDrivers(drivers){ let newDrivers = drivers.slice(drivers.length-2); return newDrivers;}
+ function returnFirstTwoDrivers(drivers){ let newDrivers = drivers.slice(0,2); return newDrivers; } ,
+function returnLastTwoDrivers(drivers){ let newDrivers = drivers.slice(drivers.length-2); return newDrivers;}
 ];
